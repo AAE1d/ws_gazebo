@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot1">
+
+<!-- Here we define the model parameters  -->
+
+<!-- Geometry  -->
+
+<xacro:property name="base_link_length" value="0.2"/>
+<xacro:property name="base_link_radius" value="0.3"/>
+
+
+<!-- Include the Gazebo definitions  -->
+
+<xacro:include filename="$(find nixbot)/model/robot.gazebo" />
+
+    <link name="dummy">
+    </link>
+
+    <joint name="dummy_joint" type="fixed">
+    <parent link="dummy"/>
+    <child link="base_link"/>
+    </joint>
+    		
+
+	<link name="base_link">
+		<visual>
+			<geometry>
+				<cylinder length="${base_link_length}" 
+				radius="${base_link_radius}"/>
+			</geometry>
+			
+			
+			<origin rpy="0 0 0" xyz="0.1 0 0"/>
+						
+		</visual>
+		
+		<collision>
+			<geometry>
+				<cylinder length="${base_link_length}" 
+				radius="${base_link_radius}"/>
+			</geometry>
+			<origin rpy="0 0 0" xyz="0.1 0 0"/>
+		</collision>
+		
+		<inertial>
+			<origin rpy="0 0 0" xyz="0 0 0"/>
+			<mass value="1"/>
+			<inertia ixx="100" ixy="0" ixz="0" iyy="100" iyz="0" izz="100" />
+		</inertial>
+		
+	</link>	
+
+    <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel_link"/>
+    <axis xyz="0 1 0"/>
+    </joint>
+    
+    
+    
+	<link name="left_wheel_link">
+		<visual>
+			<geometry>
+				<cylinder length="0.05" 
+				radius="0.1"/>
+			</geometry>
+			
+			
+			<origin rpy="0 0 0" xyz="0.1 -0.3 0"/>
+			
+						
+		</visual>
+		
+		<collision>
+			<geometry>
+				<cylinder length="${base_link_length}" 
+				radius="${base_link_radius}"/>
+			</geometry>
+			<origin rpy="0 0 0" xyz="0.1 -0.3 0"/>
+		</collision>
+		
+		<inertial>
+			<origin rpy="0 0 0" xyz="0 0 0"/>
+			<mass value="1"/>
+			<inertia ixx="100" ixy="0" ixz="0" iyy="100" iyz="0" izz="100" />
+		</inertial>
+		
+	</link>	
+
+
+<joint name="lidar_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="left_wheel_link"/>
+    <axis xyz="0 1 0"/>
+    </joint>
+    
+    
+    
+	<link name="left_wheel_link">
+		<visual>
+			<geometry>
+				<cylinder length="0.05" 
+				radius="0.1"/>
+			</geometry>
+			
+			
+			<origin rpy="0 0 0" xyz="0.1 -0.3 0"/>
+			
+						
+		</visual>
+		
+		<collision>
+			<geometry>
+				<cylinder length="${base_link_length}" 
+				radius="${base_link_radius}"/>
+			</geometry>
+			<origin rpy="0 0 0" xyz="0.1 -0.3 0"/>
+		</collision>
+		
+		<inertial>
+			<origin rpy="0 0 0" xyz="0 0 0"/>
+			<mass value="1"/>
+			<inertia ixx="100" ixy="0" ixz="0" iyy="100" iyz="0" izz="100" />
+		</inertial>
+		
+	</link>	
+
+
+</robot>

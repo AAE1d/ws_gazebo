@@ -1,0 +1,4 @@
+Invoking command in '/home/eid/ws_gazebo/build/gazebo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/gazebo_test -- -j8 -l8
+Invoked command in '/home/eid/ws_gazebo/build/gazebo_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/gazebo_test -- -j8 -l8
+Invoking command in '/home/eid/ws_gazebo/build/gazebo_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/gazebo_test
+Invoked command in '/home/eid/ws_gazebo/build/gazebo_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/gazebo_test

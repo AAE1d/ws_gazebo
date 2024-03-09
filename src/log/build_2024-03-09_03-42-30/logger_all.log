@@ -1,0 +1,468 @@
+[1.117s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3a8a611fc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3a8ac57970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3a8ac57970>>)
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.168s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eid/ws_gazebo/src'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore_ament_install'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_pkg']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_pkg'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_meta']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_meta'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ros']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ros'
+[1.189s] DEBUG:colcon.colcon_core.package_identification:Package 'diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'ignore'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'ignore_ament_install'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['colcon_pkg']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'colcon_pkg'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['colcon_meta']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'colcon_meta'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_pkg) by extension 'ros'
+[1.190s] DEBUG:colcon.colcon_core.package_identification:Package 'my_first_pkg' with type 'ros.ament_cmake' and name 'my_first_pkg'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extensions ['ignore', 'ignore_ament_install']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extension 'ignore'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extension 'ignore_ament_install'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extensions ['colcon_pkg']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extension 'colcon_pkg'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extensions ['colcon_meta']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extension 'colcon_meta'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extensions ['ros']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(nixbot) by extension 'ros'
+[1.192s] DEBUG:colcon.colcon_core.package_identification:Package 'nixbot' with type 'ros.ament_cmake' and name 'nixbot'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ignore', 'ignore_ament_install']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore_ament_install'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_pkg']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_pkg'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_meta']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_meta'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ros']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ros'
+[1.193s] DEBUG:colcon.colcon_core.package_identification:Package 'serial' with type 'ros.ament_cmake' and name 'serial'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore_ament_install'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_pkg']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_meta'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ros'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['cmake', 'python']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'cmake'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'python'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['python_setup_py']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'python_setup_py'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ros'
+[1.195s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[1.196s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.317s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/eid/colcon_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.317s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/eid/colcon_ws/install/move_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.317s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/eid/colcon_ws/install/reach_wall_action' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.317s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/eid/colcon_ws/install/my_own_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.318s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/eid/colcon_ws/install/reach_wall_action' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.318s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/eid/colcon_ws/install/my_own_package' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.336s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/eid/ws_gazebo/src/install
+[1.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/eid/ws_gazebo/install
+[1.370s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 379 installed packages in /opt/ros/humble
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.503s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.503s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eid/ws_gazebo/src/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eid/ws_gazebo/src/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/eid/ws_gazebo/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_args' from command line to 'None'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target' from command line to 'None'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.520s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eid/ws_gazebo/src/build/my_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eid/ws_gazebo/src/install/my_first_pkg', 'merge_install': False, 'path': '/home/eid/ws_gazebo/src/my_first_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.536s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'cmake_args' from command line to 'None'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'cmake_target' from command line to 'None'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'cmake_clean_first' from command line to 'False'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'cmake_force_configure' from command line to 'False'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'ament_cmake_args' from command line to 'None'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'nixbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.537s] DEBUG:colcon.colcon_core.verb:Building package 'nixbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eid/ws_gazebo/src/build/nixbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eid/ws_gazebo/src/install/nixbot', 'merge_install': False, 'path': '/home/eid/ws_gazebo/src/nixbot', 'symlink_install': False, 'test_result_base': None}
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.554s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.554s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eid/ws_gazebo/src/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eid/ws_gazebo/src/install/serial', 'merge_install': False, 'path': '/home/eid/ws_gazebo/src/serial', 'symlink_install': False, 'test_result_base': None}
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.571s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.588s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eid/ws_gazebo/src/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eid/ws_gazebo/src/install/serial_motor_demo', 'merge_install': False, 'path': '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[1.604s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.621s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[1.621s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo_msgs'
+[1.639s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eid/ws_gazebo/src/diffdrive_arduino' with build type 'ament_cmake'
+[1.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eid/ws_gazebo/src/diffdrive_arduino'
+[1.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.809s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eid/ws_gazebo/src/my_first_pkg' with build type 'ament_cmake'
+[1.809s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eid/ws_gazebo/src/my_first_pkg'
+[1.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eid/ws_gazebo/src/nixbot' with build type 'ament_cmake'
+[1.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eid/ws_gazebo/src/nixbot'
+[1.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.991s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eid/ws_gazebo/src/serial' with build type 'ament_cmake'
+[1.991s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eid/ws_gazebo/src/serial'
+[2.009s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs -- -j8 -l8
+[2.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/diffdrive_arduino -- -j8 -l8
+[2.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/my_first_pkg -- -j8 -l8
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/nixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/nixbot -- -j8 -l8
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial -- -j8 -l8
+[2.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/nixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/nixbot -- -j8 -l8
+[2.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/my_first_pkg -- -j8 -l8
+[2.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/nixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/nixbot
+[2.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/my_first_pkg
+[2.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/diffdrive_arduino -- -j8 -l8
+[2.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial -- -j8 -l8
+[2.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nixbot)
+[2.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/nixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/nixbot
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot' for CMake module files
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot' for CMake config files
+[2.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('nixbot', 'cmake_prefix_path')
+[2.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/hook/cmake_prefix_path.ps1'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/hook/cmake_prefix_path.dsv'
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/hook/cmake_prefix_path.sh'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/bin'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/lib/pkgconfig/nixbot.pc'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/lib/python3.10/site-packages'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/bin'
+[2.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.ps1'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.dsv'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.sh'
+[2.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.bash'
+[2.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.zsh'
+[2.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/nixbot/share/colcon-core/packages/nixbot)
+[2.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/diffdrive_arduino
+[2.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_pkg)
+[2.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial
+[2.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/my_first_pkg
+[2.482s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg' for CMake module files
+[2.483s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg' for CMake config files
+[2.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'cmake_prefix_path')
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.ps1'
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.dsv'
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.sh'
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/lib'
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/bin'
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/lib/pkgconfig/my_first_pkg.pc'
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/lib/python3.10/site-packages'
+[2.510s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/bin'
+[2.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.ps1'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.dsv'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.sh'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.bash'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.zsh'
+[2.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/my_first_pkg/share/colcon-core/packages/my_first_pkg)
+[2.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nixbot)
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot' for CMake module files
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot' for CMake config files
+[2.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('nixbot', 'cmake_prefix_path')
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/hook/cmake_prefix_path.ps1'
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/hook/cmake_prefix_path.dsv'
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/hook/cmake_prefix_path.sh'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/bin'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/lib/pkgconfig/nixbot.pc'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/lib/python3.10/site-packages'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/nixbot/bin'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.ps1'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.dsv'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.sh'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.bash'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/nixbot/share/nixbot/package.zsh'
+[2.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/nixbot/share/colcon-core/packages/nixbot)
+[2.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[2.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial' for CMake module files
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial' for CMake config files
+[2.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/lib'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/bin'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/lib/pkgconfig/serial.pc'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/lib/python3.10/site-packages'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/bin'
+[2.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.ps1'
+[2.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/serial/share/serial/package.dsv'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.sh'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.bash'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.zsh'
+[2.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/serial/share/colcon-core/packages/serial)
+[2.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[2.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/diffdrive_arduino
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino' for CMake module files
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino' for CMake config files
+[2.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[2.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[2.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[2.735s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/lib'
+[2.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/bin'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/lib/python3.10/site-packages'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/bin'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[2.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[2.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_pkg)
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg' for CMake module files
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg' for CMake config files
+[2.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'cmake_prefix_path')
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.dsv'
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.sh'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/lib'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/bin'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/lib/pkgconfig/my_first_pkg.pc'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/lib/python3.10/site-packages'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/my_first_pkg/bin'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.ps1'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.dsv'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.sh'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.bash'
+[2.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.zsh'
+[2.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/my_first_pkg/share/colcon-core/packages/my_first_pkg)
+[2.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs -- -j8 -l8
+[2.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[2.919s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial' for CMake module files
+[2.919s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial' for CMake config files
+[2.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/lib'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/bin'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/lib/pkgconfig/serial.pc'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/lib/python3.10/site-packages'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial/bin'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.ps1'
+[2.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/serial/share/serial/package.dsv'
+[2.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.sh'
+[2.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.bash'
+[2.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial/share/serial/package.zsh'
+[2.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/serial/share/colcon-core/packages/serial)
+[2.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[3.005s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino' for CMake module files
+[3.005s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino' for CMake config files
+[3.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[3.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[3.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[3.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/lib'
+[3.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/bin'
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/lib/python3.10/site-packages'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/diffdrive_arduino/bin'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[3.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[3.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[3.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[3.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[3.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs
+[3.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[3.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs' for CMake module files
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs' for CMake config files
+[3.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib'
+[3.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/bin'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/bin'
+[3.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[3.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[3.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[3.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[3.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[3.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[3.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs' for CMake module files
+[3.410s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs' for CMake config files
+[3.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[3.429s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib'
+[3.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[3.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/bin'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[3.450s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/bin'
+[3.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[3.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[3.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[3.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[3.470s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[3.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[3.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[3.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[3.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.948s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo'
+[3.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo': PYTHONPATH=/home/eid/ws_gazebo/src/build/serial_motor_demo/prefix_override:/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/eid/ws_gazebo/src/build/serial_motor_demo/build install --record /home/eid/ws_gazebo/src/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[4.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo' returned '0': PYTHONPATH=/home/eid/ws_gazebo/src/build/serial_motor_demo/prefix_override:/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/eid/ws_gazebo/src/build/serial_motor_demo/build install --record /home/eid/ws_gazebo/src/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[4.923s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo' for CMake module files
+[4.923s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo' for CMake config files
+[4.924s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo/lib'
+[4.924s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo/bin'
+[4.924s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[4.924s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages'
+[4.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[4.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[4.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[4.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[4.946s] Level 1:colcon.colcon_core.environment:checking '/home/eid/ws_gazebo/src/install/serial_motor_demo/bin'
+[4.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[4.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[4.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[4.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[4.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/eid/ws_gazebo/src/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[4.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eid/ws_gazebo/src/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[4.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.970s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.997s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.010s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eid/ws_gazebo/src/install/local_setup.ps1'
+[5.037s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eid/ws_gazebo/src/install/_local_setup_util_ps1.py'
+[5.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eid/ws_gazebo/src/install/setup.ps1'
+[5.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eid/ws_gazebo/src/install/local_setup.sh'
+[5.067s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eid/ws_gazebo/src/install/_local_setup_util_sh.py'
+[5.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eid/ws_gazebo/src/install/setup.sh'
+[5.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eid/ws_gazebo/src/install/local_setup.bash'
+[5.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eid/ws_gazebo/src/install/setup.bash'
+[5.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eid/ws_gazebo/src/install/local_setup.zsh'
+[5.120s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eid/ws_gazebo/src/install/setup.zsh'

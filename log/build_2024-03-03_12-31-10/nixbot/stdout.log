@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/gazebo_model.launch.py
+-- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/display.launch.py
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot//model
+-- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot//model/rob.urdf
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot//rviz
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot//rviz/config.rviz
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/package_run_dependencies/nixbot
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/parent_prefix_path/nixbot
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/path.sh
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/path.dsv
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.bash
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.sh
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.zsh
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.dsv
+-- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/package.dsv
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/packages/nixbot
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/cmake/nixbotConfig.cmake
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/cmake/nixbotConfig-version.cmake
+-- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/package.xml

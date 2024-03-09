@@ -1,0 +1,1 @@
+/home/eid/ws_gazebo/build/serial/ament_cmake_core/serialConfig-version.cmake

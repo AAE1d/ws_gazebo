@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+5f57b657ea2f0f1e106310a18a1b3210 CMakeFiles/nixbot_uninstall

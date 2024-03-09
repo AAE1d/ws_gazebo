@@ -1,0 +1,1 @@
+/home/eid/ws_gazebo/src/build/nixbot/ament_cmake_core/nixbotConfig-version.cmake

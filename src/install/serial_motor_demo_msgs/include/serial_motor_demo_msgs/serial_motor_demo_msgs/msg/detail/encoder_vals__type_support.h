@@ -1,0 +1,1 @@
+/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h

@@ -1,0 +1,9 @@
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/uninstall.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/nixbot_uninstall.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/test.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/edit_cache.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/rebuild_cache.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/list_install_components.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/install.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/install/local.dir
+/home/eid/ws_gazebo/src/build/nixbot/CMakeFiles/install/strip.dir

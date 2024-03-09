@@ -1,0 +1,27 @@
+[0.487s] Invoking command in '/home/eid/ws_gazebo/src/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/my_first_pkg -- -j8 -l8
+[0.640s] [100%] Built target my_node
+[0.692s] Invoked command in '/home/eid/ws_gazebo/src/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/my_first_pkg -- -j8 -l8
+[1.059s] Invoking command in '/home/eid/ws_gazebo/src/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/my_first_pkg
+[1.081s] -- Install configuration: ""
+[1.081s] -- Execute custom install script
+[1.081s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/lib/my_first_pkg/my_node
+[1.081s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg//launch/display.launch.py
+[1.082s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg//launch/gazebo.launch.py
+[1.083s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg//urdf/my_robot.urdf
+[1.083s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg//rviz/config.rviz
+[1.084s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[1.084s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[1.084s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[1.085s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[1.085s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[1.086s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[1.086s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[1.086s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[1.087s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[1.087s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[1.087s] -- Symlinking: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.dsv
+[1.124s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[1.127s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[1.129s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[1.131s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/my_first_pkg/share/my_first_pkg/package.xml
+[1.137s] Invoked command in '/home/eid/ws_gazebo/src/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/my_first_pkg

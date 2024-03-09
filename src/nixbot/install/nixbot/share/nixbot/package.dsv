@@ -1,0 +1,8 @@
+source;share/nixbot/hook/cmake_prefix_path.ps1
+source;share/nixbot/hook/cmake_prefix_path.dsv
+source;share/nixbot/hook/cmake_prefix_path.sh
+source;share/nixbot/local_setup.bash
+source;share/nixbot/local_setup.dsv
+source;share/nixbot/local_setup.ps1
+source;share/nixbot/local_setup.sh
+source;share/nixbot/local_setup.zsh

@@ -1,0 +1,26 @@
+[0.755s] Invoking command in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo': PYTHONPATH=/home/eid/ws_gazebo/src/build/serial_motor_demo/prefix_override:/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/eid/ws_gazebo/src/build/serial_motor_demo/build install --record /home/eid/ws_gazebo/src/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[0.974s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.974s]   warnings.warn(
+[0.980s] running egg_info
+[0.981s] writing ../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.981s] writing dependency_links to ../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.982s] writing entry points to ../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.982s] writing requirements to ../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.982s] writing top-level names to ../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.983s] reading manifest file '../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.984s] writing manifest file '../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.984s] running build
+[0.984s] running build_py
+[0.984s] running install
+[0.985s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.985s]   warnings.warn(
+[0.985s] running install_lib
+[0.986s] running install_data
+[0.986s] running install_egg_info
+[0.988s] removing '/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.988s] Copying ../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.989s] running install_scripts
+[1.007s] Installing driver script to /home/eid/ws_gazebo/src/install/serial_motor_demo/lib/serial_motor_demo
+[1.007s] Installing gui script to /home/eid/ws_gazebo/src/install/serial_motor_demo/lib/serial_motor_demo
+[1.007s] writing list of installed files to '/home/eid/ws_gazebo/src/build/serial_motor_demo/install.log'
+[1.030s] Invoked command in '/home/eid/ws_gazebo/src/serial_motor_demo/serial_motor_demo' returned '0': PYTHONPATH=/home/eid/ws_gazebo/src/build/serial_motor_demo/prefix_override:/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/eid/ws_gazebo/src/build/serial_motor_demo/build install --record /home/eid/ws_gazebo/src/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

@@ -1,0 +1,34 @@
+[0.117s] Invoking command in '/home/eid/ws_gazebo/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial -- -j8 -l8
+[0.199s] [ 28%] Built target serial
+[0.218s] [ 42%] Built target gtest_main
+[0.231s] [ 57%] Built target gtest
+[0.270s] [ 71%] Built target serial_example
+[0.280s] [ 85%] Built target serial-test
+[0.290s] [100%] Built target serial-test-timer
+[0.307s] Invoked command in '/home/eid/ws_gazebo/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial -- -j8 -l8
+[0.415s] Invoking command in '/home/eid/ws_gazebo/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial
+[0.426s] -- Install configuration: ""
+[0.426s] -- Execute custom install script
+[0.427s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/lib/libserial.a
+[0.427s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/include/serial/serial.h
+[0.428s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/include/serial/v8stdint.h
+[0.428s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/environment/library_path.sh
+[0.429s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/environment/library_path.dsv
+[0.429s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.429s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.430s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.430s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.431s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/environment/path.sh
+[0.431s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/environment/path.dsv
+[0.431s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/local_setup.bash
+[0.431s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/local_setup.sh
+[0.432s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/local_setup.zsh
+[0.432s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/local_setup.dsv
+[0.432s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial/share/serial/package.dsv
+[0.440s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/ament_index/resource_index/packages/serial
+[0.440s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.440s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.440s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/cmake/serialConfig.cmake
+[0.441s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.441s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial/share/serial/package.xml
+[0.811s] Invoked command in '/home/eid/ws_gazebo/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial

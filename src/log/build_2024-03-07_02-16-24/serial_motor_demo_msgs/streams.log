@@ -1,0 +1,174 @@
+[0.674s] Invoking command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs -- -j8 -l8
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_c[0m
+[0.824s] [ 10%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[0.830s] [ 12%] Built target serial_motor_demo_msgs__cpp
+[0.872s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.873s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c[0m
+[0.882s] [ 12%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[0.890s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c[0m
+[0.910s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[0.917s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.932s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[0.941s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.952s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[0.954s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp[0m
+[0.978s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[0.981s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.000s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[1.057s] [ 76%] Built target serial_motor_demo_msgs
+[1.091s] [ 78%] Built target serial_motor_demo_msgs__py
+[1.115s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_py[0m
+[1.142s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[1.157s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c__pyext[0m
+[1.161s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.163s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.196s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.200s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[1.200s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[1.552s] running egg_info
+[1.554s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[1.554s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[1.554s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[1.559s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.559s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.621s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[1.783s] Invoked command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs -- -j8 -l8
+[1.952s] Invoking command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs
+[1.967s] -- Install configuration: ""
+[1.968s] -- Execute custom install script
+[1.968s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[1.991s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[2.003s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[2.021s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[2.035s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[2.047s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[2.061s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[2.071s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[2.080s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[2.089s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[2.101s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[2.110s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[2.119s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[2.128s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.139s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[2.150s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[2.160s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[2.169s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[2.183s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[2.194s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.210s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[2.223s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[2.235s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[2.246s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.255s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[2.265s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[2.278s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[2.290s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[2.301s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[2.316s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[2.328s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[2.342s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[2.354s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[2.364s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[2.374s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[2.387s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[2.397s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[2.407s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.424s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[2.435s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.450s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[2.464s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[2.475s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[2.488s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[2.499s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[2.512s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.524s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.536s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.547s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.559s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[2.574s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[2.594s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.605s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.617s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[2.632s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[2.644s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[2.658s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[2.669s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[2.679s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[2.692s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[2.703s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[2.720s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.734s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.744s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.754s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.754s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.755s] -- Up-to-date symlink: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.755s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[2.774s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[2.793s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[2.803s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[2.816s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[2.828s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[2.842s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[2.858s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[2.869s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[2.880s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[2.892s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[2.902s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[2.913s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[2.922s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[2.932s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[2.941s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[2.950s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[2.959s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[2.971s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[2.984s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.997s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.009s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.022s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.031s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.041s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.051s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[3.066s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[3.084s] -- Symlinking: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[3.100s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[3.100s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""
+[3.101s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[3.101s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.101s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[3.102s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.102s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[3.103s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""
+[3.103s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.103s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.104s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[3.104s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.105s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[3.105s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""
+[3.168s] Listing '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[3.168s] Compiling '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py'...
+[3.168s] Listing '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[3.169s] Compiling '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py'...
+[3.169s] Compiling '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...
+[3.169s] Compiling '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py'...
+[3.169s] Compiling '/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...
+[3.185s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[3.186s] -- Set runtime path of "/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""
+[3.186s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[3.186s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.187s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.187s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.187s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.188s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.188s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[3.189s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.189s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[3.190s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.190s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.190s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.191s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.192s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[3.193s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.194s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[3.194s] -- Installing: /home/eid/ws_gazebo/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.201s] Invoked command in '/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/serial_motor_demo_msgs

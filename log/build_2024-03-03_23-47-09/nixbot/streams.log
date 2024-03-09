@@ -1,0 +1,31 @@
+[0.105s] Invoking command in '/home/eid/ws_gazebo/build/nixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/nixbot -- -j8 -l8
+[0.148s] Invoked command in '/home/eid/ws_gazebo/build/nixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/nixbot -- -j8 -l8
+[0.187s] Invoking command in '/home/eid/ws_gazebo/build/nixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/nixbot
+[0.197s] -- Install configuration: ""
+[0.198s] -- Execute custom install script
+[0.198s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/display.launch.py
+[0.199s] -- Symlinking: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/frames_2024-03-03_21.54.33.gv
+[0.209s] -- Symlinking: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/frames_2024-03-03_21.54.33.pdf
+[0.219s] -- Symlinking: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/frames_2024-03-03_21.55.09.gv
+[0.230s] -- Symlinking: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/frames_2024-03-03_21.55.09.pdf
+[0.239s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/gazebo_model.launch.py
+[0.240s] -- Symlinking: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/mapping.launch.py
+[0.249s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot//launch/rviz.launch.py
+[0.249s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot//model/rob.urdf
+[0.249s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot//rviz/config.rviz
+[0.249s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/package_run_dependencies/nixbot
+[0.250s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/parent_prefix_path/nixbot
+[0.250s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/ament_prefix_path.sh
+[0.251s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/ament_prefix_path.dsv
+[0.251s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/path.sh
+[0.251s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/path.dsv
+[0.252s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.bash
+[0.252s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.sh
+[0.252s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.zsh
+[0.252s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.dsv
+[0.253s] -- Symlinking: /home/eid/ws_gazebo/install/nixbot/share/nixbot/package.dsv
+[0.261s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/packages/nixbot
+[0.262s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/cmake/nixbotConfig.cmake
+[0.262s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/cmake/nixbotConfig-version.cmake
+[0.262s] -- Up-to-date symlink: /home/eid/ws_gazebo/install/nixbot/share/nixbot/package.xml
+[0.326s] Invoked command in '/home/eid/ws_gazebo/build/nixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/nixbot

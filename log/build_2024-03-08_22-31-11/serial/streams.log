@@ -1,0 +1,9 @@
+[0.098s] Invoking command in '/home/eid/ws_gazebo/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/serial -- -j8 -l8
+[0.159s] [ 14%] Built target gtest
+[0.166s] [ 50%] Built target gtest_main
+[0.166s] [ 57%] Built target serial
+[0.195s] [ 85%] Built target serial-test-timer
+[0.195s] [ 85%] Built target serial_example
+[0.198s] [100%] Built target serial-test
+[0.214s] Invoked command in '/home/eid/ws_gazebo/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/serial -- -j8 -l8
+[0.376s] Invoking command in '/home/eid/ws_gazebo/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/serial

@@ -1,0 +1,1 @@
+/home/eid/ws_gazebo/src/build/serial_motor_demo_msgs/rosidl_generator_py/serial_motor_demo_msgs/msg/__init__.py

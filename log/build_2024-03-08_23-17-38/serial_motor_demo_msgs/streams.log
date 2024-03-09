@@ -1,0 +1,17 @@
+[0.418s] Invoking command in '/home/eid/ws_gazebo/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/serial_motor_demo_msgs -- -j8 -l8
+[0.484s] [ 10%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[0.484s] [ 12%] Built target serial_motor_demo_msgs__cpp
+[0.486s] failed to create symbolic link '/home/eid/ws_gazebo/build/serial_motor_demo_msgs/ament_cmake_python/serial_motor_demo_msgs/serial_motor_demo_msgs' because existing path cannot be removed: Is a directory
+[0.487s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs] Error 1
+[0.488s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/all] Error 2
+[0.488s] gmake[1]: *** Waiting for unfinished jobs....
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c[0m
+[0.510s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.515s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c[0m
+[0.519s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.524s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[0.535s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.536s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[0.540s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[0.542s] gmake: *** [Makefile:146: all] Error 2
+[0.546s] Invoked command in '/home/eid/ws_gazebo/build/serial_motor_demo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/src/install/serial_motor_demo:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/serial_motor_demo_msgs -- -j8 -l8

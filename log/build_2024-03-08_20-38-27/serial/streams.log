@@ -1,0 +1,7 @@
+[0.102s] Invoking command in '/home/eid/ws_gazebo/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/serial -- -j8 -l8
+[0.171s] [ 14%] Built target gtest_main
+[0.171s] [ 42%] Built target serial
+[0.173s] [ 57%] Built target gtest
+[0.199s] [ 71%] Built target serial_example
+[0.202s] [ 85%] Built target serial-test-timer
+[0.202s] [100%] Built target serial-test

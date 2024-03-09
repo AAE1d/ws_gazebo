@@ -1,0 +1,4 @@
+source;share/nixbot/local_setup.bash
+source;share/nixbot/local_setup.dsv
+source;share/nixbot/local_setup.sh
+source;share/nixbot/local_setup.zsh

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <arg name="world_file" default = "$(env nixbot)/world/env" />
+
+
+    <include file = "$(env gazebo_ros)/launch/empty_world">
+
+        <arg name="use_sim_time" value="true"/>
+        <arg name="debug" value="false"/>
+        <arg name="gui" value="true"/>
+        <arg name="world_name" value="$(arg world_file)"/>
+    </include>
+</launch>

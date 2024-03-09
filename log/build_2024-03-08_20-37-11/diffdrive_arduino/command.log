@@ -1,0 +1,1 @@
+Invoking command in '/home/eid/ws_gazebo/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake /home/eid/ws_gazebo/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eid/ws_gazebo/install/diffdrive_arduino

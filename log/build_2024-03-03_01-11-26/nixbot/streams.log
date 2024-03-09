@@ -1,0 +1,39 @@
+[0.094s] Invoking command in '/home/eid/ws_gazebo/build/nixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/nixbot -- -j8 -l8
+[0.118s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.290s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.381s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.381s] -- Added test 'lint_cmake' to check CMake code style
+[0.382s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.383s] -- Added test 'xmllint' to check XML markup files
+[0.384s] -- Configuring done
+[0.387s] -- Generating done
+[0.388s] -- Build files have been written to: /home/eid/ws_gazebo/build/nixbot
+[0.411s] Invoked command in '/home/eid/ws_gazebo/build/nixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/nixbot -- -j8 -l8
+[0.440s] Invoking command in '/home/eid/ws_gazebo/build/nixbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/nixbot
+[0.453s] -- Install configuration: ""
+[0.453s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/launch
+[0.453s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/launch/gazebo_model.launch.py
+[0.454s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/launch/display.launch.py
+[0.454s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/model
+[0.454s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/model/robot.gazebo
+[0.454s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/model/empty_world.world
+[0.454s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/model/bot.urdf
+[0.454s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/model/robot.urdf
+[0.454s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/model/model.urdf
+[0.454s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/model/robot.xacro
+[0.454s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/package_run_dependencies/nixbot
+[0.454s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/parent_prefix_path/nixbot
+[0.454s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/ament_prefix_path.sh
+[0.455s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/ament_prefix_path.dsv
+[0.455s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/path.sh
+[0.455s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/environment/path.dsv
+[0.455s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.bash
+[0.455s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.sh
+[0.455s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.zsh
+[0.455s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/local_setup.dsv
+[0.455s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/package.dsv
+[0.456s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/ament_index/resource_index/packages/nixbot
+[0.456s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/cmake/nixbotConfig.cmake
+[0.456s] -- Up-to-date: /home/eid/ws_gazebo/install/nixbot/share/nixbot/cmake/nixbotConfig-version.cmake
+[0.456s] -- Installing: /home/eid/ws_gazebo/install/nixbot/share/nixbot/package.xml
+[0.458s] Invoked command in '/home/eid/ws_gazebo/build/nixbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/nixbot

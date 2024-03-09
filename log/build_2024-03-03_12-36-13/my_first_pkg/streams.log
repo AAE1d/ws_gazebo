@@ -1,0 +1,62 @@
+[0.141s] Invoking command in '/home/eid/ws_gazebo/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake /home/eid/ws_gazebo/src/my_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eid/ws_gazebo/install/my_first_pkg
+[0.206s] -- The C compiler identification is GNU 11.4.0
+[0.283s] -- The CXX compiler identification is GNU 11.4.0
+[0.293s] -- Detecting C compiler ABI info
+[0.386s] -- Detecting C compiler ABI info - done
+[0.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.402s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.531s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.737s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.826s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.863s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.981s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.985s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.985s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/eid/ws_gazebo/src/my_first_pkg/include>
+[0.985s] -- Configured cppcheck exclude dirs and/or files: 
+[0.988s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.988s] -- Configured cpplint exclude dirs and/or files: 
+[0.989s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.990s] -- Added test 'lint_cmake' to check CMake code style
+[0.991s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.994s] -- Added test 'uncrustify' to check C / C++ code style
+[0.995s] -- Configured uncrustify additional arguments: 
+[0.995s] -- Added test 'xmllint' to check XML markup files
+[0.997s] -- Configuring done
+[1.001s] -- Generating done
+[1.002s] -- Build files have been written to: /home/eid/ws_gazebo/build/my_first_pkg
+[1.008s] Invoked command in '/home/eid/ws_gazebo/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake /home/eid/ws_gazebo/src/my_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eid/ws_gazebo/install/my_first_pkg
+[1.009s] Invoking command in '/home/eid/ws_gazebo/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/my_first_pkg -- -j8 -l8
+[1.064s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.138s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.189s] [100%] Built target my_node
+[1.200s] Invoked command in '/home/eid/ws_gazebo/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/build/my_first_pkg -- -j8 -l8
+[1.232s] Invoking command in '/home/eid/ws_gazebo/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/my_first_pkg
+[1.239s] -- Install configuration: ""
+[1.240s] -- Execute custom install script
+[1.240s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/lib/my_first_pkg/my_node
+[1.250s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg//launch/display.launch.py
+[1.258s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg//launch/gazebo.launch.py
+[1.268s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg//urdf/my_robot.urdf
+[1.277s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg//rviz/config.rviz
+[1.289s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[1.304s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[1.315s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[1.326s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[1.337s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[1.349s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[1.359s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[1.369s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[1.378s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[1.388s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[1.398s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/package.dsv
+[1.408s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[1.418s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[1.426s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[1.436s] -- Symlinking: /home/eid/ws_gazebo/install/my_first_pkg/share/my_first_pkg/package.xml
+[1.448s] Invoked command in '/home/eid/ws_gazebo/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --install /home/eid/ws_gazebo/build/my_first_pkg

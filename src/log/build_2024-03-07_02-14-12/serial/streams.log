@@ -1,0 +1,26 @@
+[0.194s] Invoking command in '/home/eid/ws_gazebo/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eid/colcon_ws/install/move_robot:/opt/ros/humble /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/serial -- -j8 -l8
+[0.312s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.313s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.315s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.319s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.329s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.815s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[3.075s] [ 42%] Built target serial
+[3.242s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[3.971s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.301s] [ 57%] Built target gtest_main
+[5.115s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[5.608s] [ 64%] Built target serial_example
+[9.793s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.900s] [ 71%] Built target gtest
+[9.930s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[9.930s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[11.429s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[11.429s]                  from [01m[K/home/eid/ws_gazebo/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[11.429s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[11.430s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[11.430s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.473s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[11.811s] [ 92%] Built target serial-test-timer
+[11.872s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[12.134s] [100%] Built target serial-test
